@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F3516A3227668E8001943EA /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3516A2227668E8001943EA /* VideoCell.swift */; };
 		3F69A5C2225E939C0033F794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5C1225E939C0033F794 /* AppDelegate.swift */; };
 		3F69A5C4225E939C0033F794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5C3225E939C0033F794 /* ViewController.swift */; };
 		3F69A5C7225E939C0033F794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5C5225E939C0033F794 /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		2F29062BBF7165807554C88E /* Pods-Learn2DanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn2DanceTests.release.xcconfig"; path = "Target Support Files/Pods-Learn2DanceTests/Pods-Learn2DanceTests.release.xcconfig"; sourceTree = "<group>"; };
 		3CEC85CED540CE56567E7C38 /* Pods-Learn2Dance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn2Dance.release.xcconfig"; path = "Target Support Files/Pods-Learn2Dance/Pods-Learn2Dance.release.xcconfig"; sourceTree = "<group>"; };
+		3F3516A2227668E8001943EA /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
 		3F69A5BE225E939C0033F794 /* Learn2Dance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learn2Dance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F69A5C1225E939C0033F794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F69A5C3225E939C0033F794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				3F69A5CA225E939E0033F794 /* LaunchScreen.storyboard */,
 				3F69A5CD225E939E0033F794 /* Info.plist */,
 				3F69A5F1225E93E70033F794 /* Stream.storyboard */,
+				3F3516A2227668E8001943EA /* VideoCell.swift */,
 			);
 			path = Learn2Dance;
 			sourceTree = "<group>";
@@ -173,7 +176,6 @@
 				C4EE11AAFB7B64BD2827DA9E /* Pods-Learn2DanceUITests.debug.xcconfig */,
 				D07CADD6D11E4354089AF21E /* Pods-Learn2DanceUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -423,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F69A5F8225E9D370033F794 /* CreateViewController.swift in Sources */,
+				3F3516A3227668E8001943EA /* VideoCell.swift in Sources */,
 				3F69A5F6225E9C550033F794 /* LoginViewController.swift in Sources */,
 				3F69A5FC225E9D6B0033F794 /* StreamViewController.swift in Sources */,
 				3F69A5FA225E9D5D0033F794 /* DetailViewController.swift in Sources */,
